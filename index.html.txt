@@ -1,78 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>컨설팅 서비스 - 홍보 홈페이지</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
-    header { background: #333; color: #fff; padding: 1rem 0; text-align: center; }
-    nav { display: flex; justify-content: center; gap: 1rem; background: #555; padding: 0.5rem 0; }
-    nav a { color: #fff; text-decoration: none; padding: 0.5rem 1rem; }
-    nav a:hover { background: #444; }
-    section { padding: 2rem; max-width: 1200px; margin: 0 auto; }
-    h1, h2 { color: #333; }
-    .services { display: flex; flex-wrap: wrap; gap: 1rem; }
-    .service { flex: 1 1 calc(50% - 2rem); background: #f9f9f9; padding: 1rem; border: 1px solid #ddd; }
-    footer { background: #333; color: #fff; text-align: center; padding: 1rem 0; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사명 | 청정 에너지 및 기술 솔루션</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>컨설팅 전문 서비스</h1>
-    <p>비즈니스 성공을 위한 최고의 파트너</p>
-  </header>
-  <nav>
-    <a href="#home">홈</a>
-    <a href="#services">서비스</a>
-    <a href="#about">회사 소개</a>
-    <a href="#contact">문의하기</a>
-  </nav>
-  <section id="home">
-    <h2>Welcome to Our Consulting Services</h2>
-    <p>우리는 고객의 성공을 위해 맞춤형 컨설팅과 개발 솔루션을 제공합니다.</p>
-  </section>
-  <section id="services">
-    <h2>서비스 소개</h2>
-    <div class="services">
-      <div class="service">
-        <h3>비즈니스 모델 컨설팅</h3>
-        <p>혁신적인 비즈니스 모델을 설계하여 성공 가능성을 극대화합니다.</p>
-      </div>
-      <div class="service">
-        <h3>기술 컨설팅</h3>
-        <p>최신 기술 동향을 분석하여 최적의 솔루션을 제안합니다.</p>
-      </div>
-      <div class="service">
-        <h3>개발 대행</h3>
-        <p>프로젝트 기획부터 완성까지 전 과정을 책임집니다.</p>
-      </div>
-      <div class="service">
-        <h3>특허 대행</h3>
-        <p>아이디어 보호를 위한 특허 출원 및 관리 서비스를 제공합니다.</p>
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <h2>회사 소개</h2>
-    <p>우리는 고객의 성장과 성공을 돕기 위해 전문성을 바탕으로 컨설팅 서비스를 제공합니다.</p>
-  </section>
-  <section id="contact">
-    <h2>문의하기</h2>
-    <p>더 많은 정보를 원하시면 아래 양식을 통해 연락해주세요.</p>
-    <form>
-      <label for="name">이름:</label><br>
-      <input type="text" id="name" name="name"><br><br>
-      <label for="email">이메일:</label><br>
-      <input type="email" id="email" name="email"><br><br>
-      <label for="message">문의 내용:</label><br>
-      <textarea id="message" name="message"></textarea><br><br>
-      <button type="submit">제출하기</button>
-    </form>
-  </section>
-  <footer>
-    <p>&copy; 2025 컨설팅 전문 서비스. All rights reserved.</p>
-  </footer>
+    <!-- 헤더 -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#about">회사 소개</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 메인 배너 -->
+    <section id="home" class="banner">
+        <h1>청정 에너지 및 기술 솔루션</h1>
+        <p>수소, 태양광, 풍력 및 전기차 기술을 선도하는 기업</p>
+    </section>
+
+    <!-- 서비스 섹션 -->
+    <section id="services">
+        <h2>주요 서비스</h2>
+        <div class="service">
+            <h3>수소발생기 개발 및 제조</h3>
+            <p>수소 발생 기술과 관련된 최신 솔루션을 제공합니다.</p>
+        </div>
+        <div class="service">
+            <h3>전기 오토바이 및 고속 충전기 개발</h3>
+            <p>전기 오토바이와 빠른 충전 기술을 제공합니다.</p>
+        </div>
+        <!-- 추가 서비스 항목들 -->
+    </section>
+
+    <!-- 회사 소개 섹션 -->
+    <section id="about">
+        <h2>회사 소개</h2>
+        <p>우리 회사는 청정 에너지 및 혁신적인 기술 솔루션을 제공하는 기업입니다.</p>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>문의사항이 있으시면 아래 연락처로 문의해주세요.</p>
+        <address>
+            이메일: info@company.com<br>
+            전화: 123-456-7890
+        </address>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <p>&copy; 2025 회사명. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
-
